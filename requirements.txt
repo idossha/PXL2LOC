@@ -1,0 +1,18 @@
+# Core dependencies for image processing and computer vision
+opencv-python==4.8.1.78
+numpy==1.24.3
+pandas==2.0.3
+
+# For GUI application (semi-manual approach)
+PyQt5==5.15.11
+
+# For visualization
+matplotlib==3.7.2
+
+# For advanced image processing (auto approach)
+scipy==1.11.4
+scikit-image==0.21.0
+
+# Optional: For OCR functionality (if needed)
+# pytesseract==0.3.13
+# pillow==11.2.1 
