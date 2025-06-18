@@ -3,13 +3,6 @@
 ## Overview
 PXL2LOC is a tool designed to extract and record the pixel coordinates of electrodes from EEG electrode net images. This is particularly useful for researchers and clinicians who need to map electrode positions from standardized electrode placement systems (like the GSN-256 or 10-20 systems) for EEG analysis and source localization.
 
-## Purpose
-When working with EEG data, knowing the exact position of each electrode is crucial for:
-- Source localization
-- Topographic mapping
-- Inter-subject comparisons
-- Integration with neuroimaging data
-
 This tool allows users to extract precise pixel coordinates from electrode net images and save them in a structured format for further analysis.
 
 ## Project Structure
@@ -59,7 +52,7 @@ python3 semi-manual_approach/electrode_clicker_qt.py
 - **Auto-save**: Progress saved every 5 electrodes
 - **Custom output filename**: Specify your own CSV filename
 
-### Alternative: OpenCV Version
+### Experimental: OpenCV Version
 A simpler version using OpenCV directly:
 
 ```bash
@@ -95,15 +88,7 @@ F7,345,678
 ## Tips for Best Results
 1. Use high-resolution, clear images of electrode nets
 2. Ensure good contrast between electrodes and background
-3. For systematic placement, start from a recognizable landmark (e.g., Cz or Fpz)
-4. Use the zoom feature (in OpenCV version) for precise placement
-5. Save your progress frequently using Ctrl+S
 
-## Supported Electrode Systems
-- GSN-256 (Geodesic Sensor Net)
-- 10-20 International System
-- 10-10 System
-- Any custom electrode arrangement
 
 ## Requirements
 - Python 3.9+
