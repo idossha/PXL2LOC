@@ -5,7 +5,7 @@ PXL2LOC is a tool designed to extract and record the pixel coordinates of electr
 
 This tool allows users to extract precise pixel coordinates from electrode net images and save them in a structured format for further analysis.
 
-[Main Interface](docs/GUI.png)
+![Main Interface](docs/GUI.png)
 
 ## Project Structure
 ```
